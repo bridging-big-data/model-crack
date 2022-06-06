@@ -14,7 +14,7 @@ The data collected with the ground vehicles and UAVs are pre-processed for neura
 ![architecture](assets/arch.png)
 
 The evaluation was performed with the random concrete bridge cracks for training accuracy for crack detection and the quantification for crack width measurement.
-![evaluation1](assets/mrcnn1comp.png)
+![evaluation1](assets/mrcnnlcomp.png)
 ![evaluation2](assets/eval.png)
 
 
