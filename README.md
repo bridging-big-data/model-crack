@@ -7,14 +7,14 @@ This repository includes the implementation for [Deep Neural Networks with Outdo
 Cracking is one of the most common deficiencies observed in concrete bridges. The location of the crack can be recorded in the inspection report with the visual inspection from the human inspectors. Due to the arbitrary shapes and types of bridge defects, conventional computer vision techniques are challenging to make a generalized model to detect or localize concrete cracks with images taken from various outdoor conditions. In this paper, we demonstrates how various outdoor bridge image datasets can be utilized for deep neural network training for defect detection and quantification. We collected bridge images with ground vehicles and unmanned aerial vehicles to generate full scale bridge maps. The collected images are used for training a deep learning segmentation model for pixel-level crack detection on the generated maps. Detected cracks are also used to measure the crack width and spacing. The experimental results show that the proposed algorithm is feasible for detecting and measuring cracks from concrete bridges in real world compared to the state-of-the-art deep learning segmentation algorithms.
 
 ## Overview
-![overview](assets/overview.png)
-
-The data collected with the ground vehicles and UAVs are pre-processed for neural network training and full-scale bridge map generation. The detected cracks are then used to generate bridge crack maps and to analyze the crack widths. The crack loss is calculated after skeletonized mask by measuring Euclidean distances between center and boundary pixels. 
+The data collected with a UAV and a ground vehicle are pre-processed for neural network training and full-scale bridge map generation. The detected cracks are then used to generate bridge crack maps and to analyze the crack widths. The crack loss is calculated after skeletonized mask by measuring Euclidean distances between center and boundary pixels. 
 
 ![architecture](assets/arch.png)
 
 The evaluation was performed with the random concrete bridge cracks for training accuracy for crack detection and the quantification for crack width measurement.
-![evaluation1](assets/mrcnnlcomp.png)
+<img src="assets/mrcnnlcomp.png" alt="evaluation1" width="100"/>
+
+
 ![evaluation2](assets/eval.png)
 
 
