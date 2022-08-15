@@ -9,15 +9,12 @@ Cracking is one of the most common deficiencies observed in concrete bridges. Th
 ## Overview
 The data collected with a UAV and a ground vehicle are pre-processed for neural network training and full-scale bridge map generation. The detected cracks are then used to generate bridge crack maps and to analyze the crack widths. The crack loss is calculated after skeletonized mask by measuring Euclidean distances between center and boundary pixels. 
 
-![architecture](assets/arch.png)
 
-<img src="assets/arch.png" alt="architecture" width="500px"/>
+<p align="center"> <img src="assets/arch.png" alt="architecture" width="500px"/> </p>
 
 The evaluation was performed with the random concrete bridge cracks for training accuracy for crack detection and the quantification for crack width measurement.
 
-<img src="assets/mrcnnlcomp.png" alt="evaluation1" width="800px"/>
-
-<img src="assets/eval.png" alt="evaluation2" width="400px"/>
+<p align="center"> <img src="assets/mrcnnlcomp.png" alt="evaluation1" width="600px"/> <img src="assets/eval.png" alt="evaluation2" width="400px"/> </p>
 
 
 ## Dataset
