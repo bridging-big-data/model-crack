@@ -11,11 +11,13 @@ The data collected with a UAV and a ground vehicle are pre-processed for neural 
 
 ![architecture](assets/arch.png)
 
+<img src="assets/arch.png" alt="architecture" width="500px"/>
+
 The evaluation was performed with the random concrete bridge cracks for training accuracy for crack detection and the quantification for crack width measurement.
-<img src="assets/mrcnnlcomp.png" alt="evaluation1" width="100"/>
 
+<img src="assets/mrcnnlcomp.png" alt="evaluation1" width="800px"/>
 
-![evaluation2](assets/eval.png)
+<img src="assets/eval.png" alt="evaluation2" width="400px"/>
 
 
 ## Dataset
